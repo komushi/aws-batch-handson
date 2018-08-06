@@ -154,7 +154,7 @@ resources:
             - Effect: Allow
               Action: "sts:AssumeRole"
               Principal:
-                service: ecs-tasks.amazonaws.com
+                Service: ecs-tasks.amazonaws.com
         ManagedPolicyArns:
           - "arn:aws:iam::aws:policy/AmazonS3FullAccess"
 
